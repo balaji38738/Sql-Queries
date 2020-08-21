@@ -11,9 +11,13 @@ SELECT Sname from student WHERE Sname in (SELECT Fname from faculty);
 select Deptid from faculty left join department using(deptid) where department.deptid is NULL;
 
 5)//right-left
-select Deptid from faculty left join department using(deptid) where department.deptid is NULL;
+select Deptid from faculty right join department using(deptid) where department.deptid is NULL;
 
 6)select Fname from faculty where Deptid in(select Deptid from faculty left join department using(deptid) where department.deptid is NULL);
 
 7)select tblcountry.countryId, countryName, stateId, stateName from tblcountry inner join tblstate on tblcountry.countryId=tblstate.count
 ryId;
+
+8)SELECT Sname from student UNION SELECT Fid from faculty WHERE Fname in (SELECT Sname from student);
+
+9)SELECT Sname from student WHERE Sname in (SELECT Fname from faculty) UNION SELECT Fid from faculty;
