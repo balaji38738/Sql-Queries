@@ -1,0 +1,44 @@
+1)select abs(-30);
+
+2)SELECT Atan(1/SQRT(3)) AS AtnNum;
+
+3)SELECT Avg(Price) AS AveragePrice FROM book;
+
+4)SELECT Cos(0) AS CosNum;
+
+5)SELECT Count(id) AS NumberOfBooks FROM book;
+
+6)SELECT Exp(2) AS ExpNum; //e^2
+
+7)SELECT Max(price) as maxPrice from book;
+
+8)SELECT Max(price) as maxPrice from book;
+
+9)SELECT title, Price, Round(Price, 1) AS RoundedPrice
+FROM book;
+
+10)SELECT Sign(-3) AS SgnNum;
+
+11)SELECT ceil(4.5);
+
+12)select floor(4.5);
+
+13)select log(10, 100);
+
+14)select ln(Exp(1));
+
+15)select pow(2, 5);
+
+16)select log10(100);
+
+17)select mod(300, 7);
+
+18)select degrees(PI());
+
+19)select radians(PI());
+
+20)select round(4.49, 1);
+
+21)select truncate(4.49, 1);
+
+22)select sum(price) from book;
