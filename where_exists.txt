@@ -1,0 +1,2 @@
+1)SELECT author FROM book
+WHERE EXISTS (SELECT book_id FROM cart WHERE book.id = cart.book_id);
