@@ -1,0 +1,7 @@
+1)SELECT COUNT(id), author FROM book GROUP BY author;
+
+2)SELECT COUNT(id), author FROM book GROUP BY author ORDER BY COUNT(id) DESC;
+
+3)SELECT author FROM book GROUP BY author;
+
+4)SELECT count(id), author FROM book GROUP BY author HAVING count(id) > 5;
