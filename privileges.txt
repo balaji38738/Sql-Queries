@@ -1,0 +1,7 @@
+1)REVOKE select on test_bookstore.* FROM balaji@localhost;
+
+2)GRANT ALL PRIVILEGES ON weather_db.* TO balaji@localhost;
+
+3)REVOKE select on test_bookstore.* FROM balaji@localhost;
+
+4)REVOKE ALL PRIVILEGES ON weather_db.* FROM balaji@localhost;
