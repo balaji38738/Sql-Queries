@@ -1,0 +1,52 @@
+1)SELECT ascii('CD'); //returns ascii value of first character
+
+2)SELECT char_length('Hello! ');
+
+3)SELECT CHARACTER_LENGTH('Hello!');
+
+4)SELECT CONCAT('Hello', 'world');
+
+5)SELECT CONCAT_WS(',', 'Hello', 'world'); //joins all strings by first string
+
+6)SELECT INSTR('Hello world!', 'e');  //returns first occurence of string , 1 based indexing
+
+7)SELECT LCASE ("Hello, World!");
+
+8)SELECT LEFT('Hello, World!', 5);  //selects substring of given size from left
+//returns full string if size exceeded
+
+9)SELECT LENGTH('Hello, World!');
+
+10)SELECT LOCATE('l', 'Hello, World!', 1); // finds the nth position of the given word in a string
+
+11)SELECT LOWER'Hello');
+
+12)SELECT LPAD('Hello', 8, '0');
+
+13)SELECT LTRIM('   Hello'); //removes leading spaces
+
+14)SELECT RTRIM('Hello   ');  // removes trailing spaces
+
+15)SELECT Mid("Hello, world", 6, 2);  // returns substring from given position with given size
+
+16)SELECT POSITION('e' IN 'Hello, world'); // returns first occurence of string
+
+17)SELECT REPEAT('run', 2); //repeats string n number of times
+
+18)SELECT REPLACE('Hello, world!', 'Hello', 'hi');
+
+19)SELECT REVERSE('bat');
+
+20)SELECT RIGHT('microsoft word', 3);
+
+21)SELECT RPAD('1', 6, '0');
+
+22)SELECT SPACE(7);
+
+23)SELECT STRCMP('ms word', 'ms excel');
+
+24)SELECT SUBSTR('powerpoint', 1, 5);
+
+25)SELECT SUBSTRING('python', 2, 3);
+
+26)SELECT TRIM('     Hello, world!     ')
